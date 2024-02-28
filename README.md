@@ -1,5 +1,19 @@
+# |. TEXT CELLS
+    
+        # Parth Mangukiya
+        # [24-2-24]
 
-Parth Magukiya
+print('Parth Mangukiya')
+
+name=input("What is your name?: ")
+print("Hello",name)
+
+
+First = int(input("Enter the first number: "))
+Second = int(input("Enter the first number: "))
+result = First + Second
+print("sum:", result)
+
 
 a=100
 b=29
@@ -13,20 +27,14 @@ print('The Result of the calculation was:',Exponent_result)
 print('The result of the calculation was:',Exponent_result1)
 
 
-
-
 name=input('Enter your name: ')
 your_brith_year=int(input('Enter your birth year:'))
 age=int(input("Enter your age:"))
-
-
 last_two_digites=str(your_brith_year)[-2:]
 first_three_letter=str(name)[:3]
 power_of_age=str(age**2)
 password=last_two_digites + first_three_letter + power_of_age
 print('Password:', password)
-
-
 
 
 a=int(input('First number is : '))
@@ -38,22 +46,19 @@ elif a%2==0 or b%2==0:
     print('One is the number is even:')
 else:
     print('Both Number are odd:')
-
-
+    
 
 
 x=int(input('Enter the number:'))
 
-sum_of_all_positive_numbers = 0
+sum_of_all_numbers = 0
 
 
 for i in range(x):
-    sum_of_all_positive_numbers += i
+    sum_of_all_numbers += i
     
 
-print('The sum is: ',sum_of_all_postivie_numbers)
-
-
+print('The sum is: ',sum_of_all_numbers)
 
 
 
@@ -61,7 +66,7 @@ import random
 
 
 def play_guessing_game():
-       number_to_guess = random.randint(0, 10)
+    number_to_guess = random.randint(0, 10)
     print("Dealer has selected a number. Try to guess!")
 
     guess = -1
